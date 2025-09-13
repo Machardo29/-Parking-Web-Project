@@ -5,13 +5,9 @@ A Smart Parking Management System to address urban parking issues with an online
 Features
 
 User Management: Secure sign up, sign in, profile management.
-
 Parking Lot Management: Monitoring the availability, reserved and occupied spaces in real time.
-
 Reservation System: Pre-book parking with flexible time options.
-
 Admin Dashboard: Analytics for tracking usage and allocating space.
-
 Notify :Alerts and reminders for All Providers on Booked Confirmation.
 
 System Architechure  
@@ -25,34 +21,23 @@ A-Admin
  
 Project Strucure
 
-├── backend/                 # Server-side logic (APIs, authentication, reservations)
-│   ├── config/              # Environment variables, database config
-│   ├── controllers/         # Business logic
-│   ├── models/              # Database schemas
-│
-├── frontend/                # User interface (Web)
-│   ├── components/          # Reusable UI components
-│   ├── pages/               # Page views
-│
-├── docs/                    # Documentation (ERD, diagrams)
-│
-├── tests/                   # Unit & integration tests
-│
-├── .env.example             # Example environment configuration
-├── README.md                # Project documentation
+Backend         Server-side logic (APIs, authentication, reservations)
+Config          Environment variables, database config
+Controllers     Business logic
+Models          Database schemas
+Frontend        User interface (Web)
+Components      Reusable UI components
+Pages           Page views
+Docs            Documentation (ERD, diagrams)
+README.md       Project documentation
 
 Technologies Used
 
 Frontend: JavaScript, CSS and HTML
-
 Backend: PHP
-
 Database: MySQL
-
 Authentication: PHP
-
 IoT Integration (Optional): RFID sensors, Arduino, or Raspberry Pi
-
 Deployment: GitHub
 
 Database Schema
@@ -88,15 +73,21 @@ At least 50MB storage
 
 Future Enhancements
 
-AI-driven parking space demand forecasting.
-
+ AI-driven parking space demand forecasting.
  Dynamic pricing structure that takes location and demand into account.
-
  Blockchain technology for safe transactions.
-
  Connectivity to electric vehicle charging stations.
-
  Reservations with voice assistant compatibility.
+
+Contributions
+
+Contributions are welcome!!
+
+Fork the repository
+Create a new branch (feature/your-feature)
+Commit changes (git commit -m "Added new feature")
+Push to branch (git push origin feature/your-feature)
+Create a Pull Request
 
     
 
